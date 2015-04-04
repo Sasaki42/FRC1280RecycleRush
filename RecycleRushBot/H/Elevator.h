@@ -35,24 +35,24 @@ class Elevator
 
 	private:
 		const float   MOTOR_SPEED_UP            =  1.0;    // CONFIGURE
-		const float   MOTOR_SPEED_DOWN          = -1.0;   // CONFIGURE
+		const float   MOTOR_SPEED_DOWN          = -1.0;    // CONFIGURE
 		const float   ALL_STOP                  =  0.0;
 
 		const double  DEFAULT_INPUT_UPPER_LIMIT =  5.0;    // CONFIGURE
 		const double  DEFAULT_INPUT_LOWER_LIMIT =  0.0;    // CONFIGURE
-		const double  ELEV_POS_UPPER_LIMIT      = 57.75;   // CONFIGURE
-		const double  ELEV_POS_LOWER_LIMIT      =  4.80;   // CONFIGURE
-		const double  TARGET_TOLERANCE          =  0.5;    // CONFIGURE
+		const double  ELEV_POS_UPPER_LIMIT      = 57.0;    // CONFIGURE
+		const double  ELEV_POS_LOWER_LIMIT      =  6.2;    // CONFIGURE
+		const double  TARGET_TOLERANCE          =  0.375;  // CONFIGURE
 
-		const double  POSITION0_INCREMENT       =  0.50;   // CONFIGURE
-		const double  POSITION1_INCREMENT       = 13.25;   // CONFIGURE
-		const double  POSITION2_INCREMENT       = 24.00;   // CONFIGURE
-		const double  POSITION3_INCREMENT       = 35.55;   // CONFIGURE
-		const double  POSITION4_INCREMENT       = 48.00;   // CONFIGURE
-		const double  POSITION5_INCREMENT       = 52.00;   // CONFIGURE
+		const double  POSITION0_INCREMENT       =  0.75;   // CONFIGURE
+		const double  POSITION1_INCREMENT       = 12.25;   // CONFIGURE
+		const double  POSITION2_INCREMENT       = 23.50;   // CONFIGURE
+		const double  POSITION3_INCREMENT       = 35.05;   // CONFIGURE
+		const double  POSITION4_INCREMENT       = 47.50;   // CONFIGURE
+		const double  POSITION5_INCREMENT       = 51.50;   // CONFIGURE
 		const double  OFFSET_GROUND             =  0.00;
-		const double  OFFSET_PLATFORM           =  2.00;   // CONFIGURE
-		const double  OFFSET_STEP               =  6.25;   // CONFIGURE
+		const double  OFFSET_PLATFORM           =  2.50;   // CONFIGURE
+		const double  OFFSET_STEP               =  7.75;   // CONFIGURE
 
 		const bool    PID_CONTROLLER_ON         =  true;
 		const bool    PID_CONTROLLER_OFF        =  false;
